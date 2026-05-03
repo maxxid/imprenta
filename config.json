@@ -1,0 +1,194 @@
+{
+  "precios": {
+    "A4": {
+      "menos_50": 90,
+      "mas_50": 70
+    },
+    "A5": {
+      "unico": 49
+    }
+  },
+  "encuadernacion": {
+    "abrochado": 0,
+    "basica": 600,
+    "umbral_anillado_hojas": 40
+  },
+  "redondeo": {
+    "multiplo": 200
+  },
+  "produccion": {
+    "capacidad_diaria_paginas": 5000,
+    "capacidad_express_paginas": 300,
+    "horas_anticipacion": 20,
+    "horas_anticipacion_express": 2,
+    "precio_promedio_hoja": 70,
+    "recargo_express_pct": 20
+  },
+  "entrega": {
+    "cadete_minimo": 100
+  },
+    "integraciones": {
+        "SHEETS_API_URL": "https://script.google.com/macros/s/AKfycbySc0wyeX4V7S3jG--0l2xCDlCw9LqfxrUzOp3IBM7L25fsWSEHfxlT1TthwAef5HKo/exec",
+        "API_KEY": "",
+        "GOOGLE_CLIENT_ID": "",
+        "ADMIN_EMAIL": "admin@imprenta.local"
+    },
+  "supabase": {
+    "url": "https://hjtbwnsxgellbtfariog.supabase.co",
+    "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhqdGJ3bnN4Z2VsbGJ0ZmFyaW9nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczMzcxMjcsImV4cCI6MjA5MjkxMzEyN30.-PmIguEq6p_76LnDg1QYSWBIwovkAtWByaLMz65rEts",
+    "admin_email": "maxi@barconte.com.ar"
+  },
+  "feriados": [],
+  "carreras": [
+    {
+      "id_carrera": "abo-unju",
+      "nombre": "Abogacia - UNJu",
+      "universidad": "UNJu",
+      "direccion_entrega": "Hall central - Facultad de Ciencias Economicas, UNJu",
+      "ventanas": [
+        {
+          "dia": 1,
+          "label": "Lunes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 1,
+          "label": "Lunes tarde",
+          "turno": "tarde",
+          "horario": "21:00",
+          "activa": true
+        },
+        {
+          "dia": 2,
+          "label": "Martes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 3,
+          "label": "Miercoles tarde",
+          "turno": "tarde",
+          "horario": "15:00",
+          "activa": true
+        },
+        {
+          "dia": 3,
+          "label": "Miercoles tarde",
+          "turno": "tarde",
+          "horario": "17:00",
+          "activa": true
+        },
+        {
+          "dia": 4,
+          "label": "Jueves tarde",
+          "turno": "tarde",
+          "horario": "15:00",
+          "activa": true
+        },
+        {
+          "dia": 4,
+          "label": "Jueves tarde",
+          "turno": "tarde",
+          "horario": "17:00",
+          "activa": true
+        },
+        {
+          "dia": 4,
+          "label": "Jueves tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 4,
+          "label": "Jueves tarde",
+          "turno": "tarde",
+          "horario": "21:00",
+          "activa": true
+        },
+        {
+          "dia": 5,
+          "label": "Viernes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 6,
+          "label": "Sabado manana",
+          "turno": "manana",
+          "horario": "10:00",
+          "activa": true
+        }
+      ]
+    },
+    {
+      "id_carrera": "med-unju",
+      "nombre": "Medicina - UNJu",
+      "universidad": "UNJu",
+      "direccion_entrega": "Punto de encuentro - Facultad de Medicina, UNJu",
+      "ventanas": [
+        {
+          "dia": 1,
+          "label": "Lunes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 3,
+          "label": "Miercoles tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 5,
+          "label": "Viernes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 6,
+          "label": "Sabado manana",
+          "turno": "manana",
+          "horario": "10:00",
+          "activa": true
+        }
+      ]
+    },
+    {
+      "id_carrera": "ing-utn",
+      "nombre": "Ingenieria - UTN",
+      "universidad": "UTN",
+      "direccion_entrega": "Ingreso principal - UTN Regional Jujuy",
+      "ventanas": [
+        {
+          "dia": 2,
+          "label": "Martes tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 4,
+          "label": "Jueves tarde",
+          "turno": "tarde",
+          "horario": "19:00",
+          "activa": true
+        },
+        {
+          "dia": 6,
+          "label": "Sabado manana",
+          "turno": "manana",
+          "horario": "10:00",
+          "activa": true
+        }
+      ]
+    }
+  ]
+}
